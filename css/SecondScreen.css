@@ -1,3 +1,20 @@
-.secondScreen{
+.secondScreen {
 	display: flex;
+	justify-content: center;
+}
+.blog{
+	margin: 10px;
+	transition: 0.2s ease;
+}
+/*Blog image*/
+.blog img{
+	transition: 0.2s ease;
+}
+.blog img:hover{
+	filter: brightness(1.5);
+	transition: 0.2s ease;
+}
+.blog h6{
+	color: white;
+	background-color: #4B0082;
 }
