@@ -1,0 +1,31 @@
+.secondScreen {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.blog {
+	margin: 10px;
+	padding: 5px;
+	transition: 0.2s ease;
+	background-color: #9400D3;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.blog:hover{
+	background-color: #9370DB;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	transition: 0.2s ease;
+}
+/*Blog image*/
+.blog img{
+	border-radius: 5px;
+}
+/*Blog label*/
+.blog h5{
+	color: white;
+}
+.blog h6{
+	color: white;
+	background-color: #4B0082;
+	border-radius: 3px;
+}
